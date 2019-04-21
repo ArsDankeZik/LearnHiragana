@@ -1,0 +1,9 @@
+D:\Carpeta General\Trabajo\C#\JPGame\JPGame\bin\Release\JPGame.exe.config
+D:\Carpeta General\Trabajo\C#\JPGame\JPGame\bin\Release\JPGame.exe
+D:\Carpeta General\Trabajo\C#\JPGame\JPGame\bin\Release\JPGame.pdb
+D:\Carpeta General\Trabajo\C#\JPGame\JPGame\obj\Release\JPGame.JpLearn.resources
+D:\Carpeta General\Trabajo\C#\JPGame\JPGame\obj\Release\JPGame.Properties.Resources.resources
+D:\Carpeta General\Trabajo\C#\JPGame\JPGame\obj\Release\JPGame.csproj.GenerateResource.cache
+D:\Carpeta General\Trabajo\C#\JPGame\JPGame\obj\Release\JPGame.csproj.CoreCompileInputs.cache
+D:\Carpeta General\Trabajo\C#\JPGame\JPGame\obj\Release\JPGame.exe
+D:\Carpeta General\Trabajo\C#\JPGame\JPGame\obj\Release\JPGame.pdb
