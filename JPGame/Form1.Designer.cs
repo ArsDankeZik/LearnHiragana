@@ -67,7 +67,7 @@
             // 
             this.lblGood.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.lblGood.AutoSize = true;
-            this.lblGood.Location = new System.Drawing.Point(406, 9);
+            this.lblGood.Location = new System.Drawing.Point(392, 9);
             this.lblGood.Name = "lblGood";
             this.lblGood.Size = new System.Drawing.Size(116, 42);
             this.lblGood.TabIndex = 3;
@@ -86,6 +86,8 @@
             this.Font = new System.Drawing.Font("Segoe Print", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Margin = new System.Windows.Forms.Padding(8, 10, 8, 10);
             this.MaximizeBox = false;
+            this.MaximumSize = new System.Drawing.Size(550, 550);
+            this.MinimumSize = new System.Drawing.Size(550, 550);
             this.Name = "JpLearn";
             this.ShowIcon = false;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;

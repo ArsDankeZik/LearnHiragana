@@ -1,11 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using System.Media;
 using System.Windows.Forms;
 
 namespace JPGame
@@ -142,8 +136,6 @@ namespace JPGame
         public JpLearn()
         {
             InitializeComponent();
-            //MessageBox.Show($"{hiragana[5,0]} - {hiragana[5,1]}");
-            
             assignValues();
         }
 
@@ -168,9 +160,20 @@ namespace JPGame
             {
                 e.Handled = true;
 
-                if (hiragana[randomChoice, 1].Contains(txtCheckSpell.Text)) good++;
-                else bad++;
+                if (bad == 100 || good == 100)
+                {
+                    MessageBox.Show("Take a break");
+                    txtCheckSpell.Enabled = false;
+                }
 
+                if (hiragana[randomChoice, 1].Contains(txtCheckSpell.Text) && !String.IsNullOrEmpty(txtCheckSpell.Text))
+                {
+                    good++;
+                }
+                else
+                {
+                    bad++;
+                }
                 txtCheckSpell.Text = null;
 
                 assignValues();
