@@ -7,4 +7,3 @@ D:\Carpeta General\Trabajo\C#\JPGame\JPGame\obj\Release\JPGame.csproj.GenerateRe
 D:\Carpeta General\Trabajo\C#\JPGame\JPGame\obj\Release\JPGame.csproj.CoreCompileInputs.cache
 D:\Carpeta General\Trabajo\C#\JPGame\JPGame\obj\Release\JPGame.exe
 D:\Carpeta General\Trabajo\C#\JPGame\JPGame\obj\Release\JPGame.pdb
-D:\Carpeta General\Trabajo\C#\JPGame\JPGame\obj\Release\JPGame.csprojAssemblyReference.cache

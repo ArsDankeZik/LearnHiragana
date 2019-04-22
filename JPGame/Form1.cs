@@ -160,13 +160,14 @@ namespace JPGame
             {
                 e.Handled = true;
 
-                if (bad == 100 || good == 100)
+                if (bad == 50 || good == 50)
                 {
-                    MessageBox.Show("Take a break");
+                    e.Handled = true;
+                    MessageBox.Show("Take a break or press Shift + R to play again");
                     txtCheckSpell.Enabled = false;
-                }
 
-                if (hiragana[randomChoice, 1].Contains(txtCheckSpell.Text) && !String.IsNullOrEmpty(txtCheckSpell.Text))
+                }
+                else if (hiragana[randomChoice, 1].Contains(txtCheckSpell.Text) && !String.IsNullOrEmpty(txtCheckSpell.Text))
                 {
                     good++;
                 }
@@ -174,9 +175,29 @@ namespace JPGame
                 {
                     bad++;
                 }
+
                 txtCheckSpell.Text = null;
 
                 assignValues();
+            }
+        }
+
+        private void startAgain()
+        {
+            txtCheckSpell.Enabled = true;
+            good = 0;
+            bad = 0;
+            txtCheckSpell.Focus();
+            assignValues();
+        }
+
+        private void actionsOnWindow(object sender, KeyEventArgs e)
+        {
+            if (e.Modifiers == Keys.Shift && e.KeyCode == Keys.R)
+            {
+                e.SuppressKeyPress = true;
+
+                startAgain();
             }
         }
     }

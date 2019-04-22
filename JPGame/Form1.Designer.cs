@@ -92,6 +92,7 @@
             this.ShowIcon = false;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "JPLearn";
+            this.KeyDown += new System.Windows.Forms.KeyEventHandler(this.actionsOnWindow);
             this.ResumeLayout(false);
             this.PerformLayout();
 
